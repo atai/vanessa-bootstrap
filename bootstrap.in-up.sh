@@ -58,7 +58,7 @@ if git ls-remote --quiet --exit-code vanessa-bootstrap > /dev/null; then
     echo "Подписка на обновления шаблона vanessa-bootstrap установлена корректно"
 else
     echo "Не обнаружена подписка на обновления шаблона - добавляю подписку"
-    git remote add vanessa-bootstrap https://github.com/silverbulleters/vanessa-bootstrap.git
+    git remote add vanessa-bootstrap https://github.com/atai/vanessa-bootstrap.git
 fi
 
 echo "Устанавливаю настройки объединения"
