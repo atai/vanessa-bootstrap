@@ -1,1 +1,10 @@
 distr
+*.cgr
+*.cfl
+*.1cl
+!src/cf/
+src/*.dat
+src/*.lgd
+src/*.1CD
+src/Базы/tz050/*
+SPPR/*
