@@ -1,0 +1,3 @@
+[submodule "vendor/add"]
+	path = vendor/add
+	url = https://github.com/silverbulleters/add.git
