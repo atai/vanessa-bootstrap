@@ -1,0 +1,265 @@
+{
+  "uid" : "8b923c03bc0f79b4",
+  "name" : "Настройки в разделе Администрирование",
+  "historyId" : "Настройки в разделе Администрирование",
+  "time" : {
+    "start" : 1528289310429,
+    "stop" : 1528289320086,
+    "duration" : 9657
+  },
+  "description" : "\n\nКак Администратор ИЛИ Разработчик ИЛИ Консультант\nЯ хочу настроить чистую конфигурацию ERP для компании HRS\nЧтобы при необходмости тестирования или развертывания новой базы иметь возможность сделать эталонные настройки.",
+  "descriptionHtml" : "<p>Как Администратор ИЛИ Разработчик ИЛИ Консультант\nЯ хочу настроить чистую конфигурацию ERP для компании HRS\nЧтобы при необходмости тестирования или развертывания новой базы иметь возможность сделать эталонные настройки.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(1157)}: Флаг с заголовком <ИмяФлага> не найден.\n\nТехнические данные:\n        ИмяФайла: C:/HRS/lib/add/features/libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ЯУстанавливаюФлаг\n        ВерсияVB: ver 5.0.0.124\n        ВерсияПлатформы: 8.3.10.2667\n        РежимСовместимостиTestManager: НеИспользовать",
+  "statusTrace" : "",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+    "time" : {
+      "start" : 1528289310714,
+      "stop" : 1528289313406,
+      "duration" : 2692
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+      "time" : {
+        "start" : 1528289310714,
+        "stop" : 1528289311084,
+        "duration" : 370
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И    Я закрыл все окна клиентского приложения",
+      "time" : {
+        "start" : 1528289311319,
+        "stop" : 1528289313406,
+        "duration" : 2087
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(1157)}: Флаг с заголовком <ИмяФлага> не найден.\n\nТехнические данные:\n        ИмяФайла: C:/HRS/lib/add/features/libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ЯУстанавливаюФлаг\n        ВерсияVB: ver 5.0.0.124\n        ВерсияПлатформы: 8.3.10.2667\n        РежимСовместимостиTestManager: НеИспользовать",
+    "statusTrace" : "",
+    "steps" : [ {
+      "name" : "И В командном интерфейсе я выбираю 'НСИ и администрирование' 'Общие настройки'",
+      "time" : {
+        "start" : 1528289313552,
+        "stop" : 1528289315747,
+        "duration" : 2195
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "НСИ и администрирование"
+      }, {
+        "name" : "Парам2",
+        "value" : "Общие настройки"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Тогда открылось окно 'Общие настройки'",
+      "time" : {
+        "start" : 1528289315989,
+        "stop" : 1528289316204,
+        "duration" : 215
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Общие настройки"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Если поле \"Заголовок программы\" имеет значение \"\" тогда",
+      "time" : {
+        "start" : 1528289316400,
+        "stop" : 1528289316992,
+        "duration" : 592
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Заголовок программы"
+      }, {
+        "name" : "Парам2",
+        "value" : ""
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И Я закрываю окно 'Общие настройки'",
+      "time" : {
+        "start" : 1528289317212,
+        "stop" : 1528289317449,
+        "duration" : 237
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Общие настройки"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И В командном интерфейсе я выбираю 'НСИ и администрирование' 'CRM и маркетинг'",
+      "time" : {
+        "start" : 1528289317613,
+        "stop" : 1528289318475,
+        "duration" : 862
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "НСИ и администрирование"
+      }, {
+        "name" : "Парам2",
+        "value" : "CRM и маркетинг"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Тогда открылось окно 'CRM и маркетинг'",
+      "time" : {
+        "start" : 1528289318634,
+        "stop" : 1528289318893,
+        "duration" : 259
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "CRM и маркетинг"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перехожу к закладке \"Настройки CRM\"",
+      "time" : {
+        "start" : 1528289319040,
+        "stop" : 1528289319280,
+        "duration" : 240
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Настройки CRM"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я устанавливаю флаг \"ИмяФлага\"",
+      "time" : {
+        "start" : 1528289319450,
+        "stop" : 1528289320085,
+        "duration" : 635
+      },
+      "status" : "failed",
+      "statusMessage" : "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(1157)}: Флаг с заголовком <ИмяФлага> не найден.\n\nТехнические данные:\n        ИмяФайла: C:/HRS/lib/add/features/libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ЯУстанавливаюФлаг\n        ВерсияVB: ver 5.0.0.124\n        ВерсияПлатформы: 8.3.10.2667\n        РежимСовместимостиTestManager: НеИспользовать",
+      "statusTrace" : "",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "ИмяФлага"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "13c36525da55cdb2",
+      "name" : "screenshot",
+      "source" : "13c36525da55cdb2.png",
+      "type" : "image/png",
+      "size" : 155505
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "tree"
+  }, {
+    "name" : "package",
+    "value" : "000-Общие настройки и заполнение БД"
+  }, {
+    "name" : "host",
+    "value" : "Microsoft Windows 10 version 10.0  (Build 16299)"
+  }, {
+    "name" : "feature",
+    "value" : "ОбщаяНастройкаБД"
+  }, {
+    "name" : "story",
+    "value" : " Настройка чистой БД"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "tree" ]
+  },
+  "source" : "8b923c03bc0f79b4.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,698 @@
+{
+  "uid" : "962ce67225ca72cf",
+  "name" : "Заполненение справочника Роли трудового ресурса",
+  "historyId" : "Заполненение справочника Роли трудового ресурса",
+  "time" : {
+    "start" : 1528274938315,
+    "stop" : 1528274978624,
+    "duration" : 40309
+  },
+  "description" : "\n\nКак Сотрудник проектного отдела\nЯ хочу Зарегистрировать справочную информацию (НСИ) в части структуры трудовых ресурсов компании\nЧтобы иметь возможность в дальнейшем управлять трудовыми ресурсами для планирования",
+  "descriptionHtml" : "<p>Как Сотрудник проектного отдела\nЯ хочу Зарегистрировать справочную информацию (НСИ) в части структуры трудовых ресурсов компании\nЧтобы иметь возможность в дальнейшем управлять трудовыми ресурсами для планирования</p>\n",
+  "status" : "failed",
+  "statusMessage" : "{ВнешняяОбработка.bddRunner.Форма.УправляемаяФорма.Форма(2809)}: Не получилось определить активное окно TestClient.\n\nТехнические данные:\n        ИмяФайла: C:/HRS/lib/add/features/libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВПолеЯВвожуТекст\n        ВерсияVB: ver 5.0.0.124\n        ВерсияПлатформы: 8.3.10.2667\n        РежимСовместимостиTestManager: НеИспользовать",
+  "statusTrace" : "",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+    "time" : {
+      "start" : 1528274938699,
+      "stop" : 1528274940222,
+      "duration" : 1523
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+      "time" : {
+        "start" : 1528274938699,
+        "stop" : 1528274938956,
+        "duration" : 257
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И    Я закрыл все окна клиентского приложения",
+      "time" : {
+        "start" : 1528274939106,
+        "stop" : 1528274940222,
+        "duration" : 1116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "{ВнешняяОбработка.bddRunner.Форма.УправляемаяФорма.Форма(2809)}: Не получилось определить активное окно TestClient.\n\nТехнические данные:\n        ИмяФайла: C:/HRS/lib/add/features/libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВПолеЯВвожуТекст\n        ВерсияVB: ver 5.0.0.124\n        ВерсияПлатформы: 8.3.10.2667\n        РежимСовместимостиTestManager: НеИспользовать",
+    "statusTrace" : "",
+    "steps" : [ {
+      "name" : "И В командном интерфейсе я выбираю 'Соната' 'Трудовые ресурсы'",
+      "time" : {
+        "start" : 1528274940399,
+        "stop" : 1528274941120,
+        "duration" : 721
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Соната"
+      }, {
+        "name" : "Парам2",
+        "value" : "Трудовые ресурсы"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Тогда открылось окно 'Трудовые ресурсы'",
+      "time" : {
+        "start" : 1528274941341,
+        "stop" : 1528274941658,
+        "duration" : 317
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Трудовые ресурсы"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я нажимаю на кнопку с именем 'ФормаСоздать'",
+      "time" : {
+        "start" : 1528274941951,
+        "stop" : 1528274945963,
+        "duration" : 4012
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "ФормаСоздать"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Тогда открылось окно 'Трудовые ресурсы (создание)'",
+      "time" : {
+        "start" : 1528274946222,
+        "stop" : 1528274946457,
+        "duration" : 235
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Трудовые ресурсы (создание)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И в поле 'Наименование' я ввожу текст 'Иванов Сергей Петрович'",
+      "time" : {
+        "start" : 1528274946630,
+        "stop" : 1528274950520,
+        "duration" : 3890
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Наименование"
+      }, {
+        "name" : "Парам2",
+        "value" : "Иванов Сергей Петрович"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И из выпадающего списка \"Родитель\" я выбираю по строке 'тдел установки POS систем'",
+      "time" : {
+        "start" : 1528274950686,
+        "stop" : 1528274951550,
+        "duration" : 864
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Родитель"
+      }, {
+        "name" : "Парам2",
+        "value" : "тдел установки POS систем"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И в поле 'Полное наименование' я ввожу текст 'Иванов Сергей Петрович ОУ POS'",
+      "time" : {
+        "start" : 1528274951701,
+        "stop" : 1528274955558,
+        "duration" : 3857
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Полное наименование"
+      }, {
+        "name" : "Парам2",
+        "value" : "Иванов Сергей Петрович ОУ POS"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И из выпадающего списка \"Тип трудового ресурса\" я выбираю точное значение 'Собственный'",
+      "time" : {
+        "start" : 1528274955769,
+        "stop" : 1528274956362,
+        "duration" : 593
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Тип трудового ресурса"
+      }, {
+        "name" : "Парам2",
+        "value" : "Собственный"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я нажимаю кнопку выбора у поля \"Сотрудник\"",
+      "time" : {
+        "start" : 1528274956582,
+        "stop" : 1528274960387,
+        "duration" : 3805
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Сотрудник"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Тогда открылось окно 'Сотрудники'",
+      "time" : {
+        "start" : 1528274960639,
+        "stop" : 1528274962024,
+        "duration" : 1385
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Сотрудники"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я нажимаю на кнопку с именем 'СписокСоздать'",
+      "time" : {
+        "start" : 1528274962263,
+        "stop" : 1528274962593,
+        "duration" : 330
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "СписокСоздать"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Тогда открылось окно 'Сотрудник (создание)'",
+      "time" : {
+        "start" : 1528274962961,
+        "stop" : 1528274964029,
+        "duration" : 1068
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Сотрудник (создание)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И в поле 'Полное имя' я ввожу текст 'Иванов Сергей Петрович'",
+      "time" : {
+        "start" : 1528274964294,
+        "stop" : 1528274968315,
+        "duration" : 4021
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Полное имя"
+      }, {
+        "name" : "Парам2",
+        "value" : "Иванов Сергей Петрович"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перехожу к следующему реквизиту",
+      "time" : {
+        "start" : 1528274969184,
+        "stop" : 1528274969446,
+        "duration" : 262
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я нажимаю на кнопку с именем \"ДаЭтоТотКтоМнеНужен\"",
+      "time" : {
+        "start" : 1528274969702,
+        "stop" : 1528274973782,
+        "duration" : 4080
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "ДаЭтоТотКтоМнеНужен"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я нажимаю кнопку выбора у поля \"Дата рождения\"",
+      "time" : {
+        "start" : 1528274974003,
+        "stop" : 1528274978229,
+        "duration" : 4226
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Дата рождения"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И в поле 'Дата рождения' я ввожу текст '07.01.1977'",
+      "time" : {
+        "start" : 1528274978518,
+        "stop" : 1528274978620,
+        "duration" : 102
+      },
+      "status" : "failed",
+      "statusMessage" : "{ВнешняяОбработка.bddRunner.Форма.УправляемаяФорма.Форма(2809)}: Не получилось определить активное окно TestClient.\n\nТехнические данные:\n        ИмяФайла: C:/HRS/lib/add/features/libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВПолеЯВвожуТекст\n        ВерсияVB: ver 5.0.0.124\n        ВерсияПлатформы: 8.3.10.2667\n        РежимСовместимостиTestManager: НеИспользовать",
+      "statusTrace" : "",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Дата рождения"
+      }, {
+        "name" : "Парам2",
+        "value" : "07.01.1977"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "И я нажимаю на кнопку 'Записать и закрыть'",
+      "time" : {
+        "start" : 1528274978624,
+        "stop" : 1528274978624,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Записать и закрыть"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Тогда открылось окно 'Трудовые ресурсы (создание) *'",
+      "time" : {
+        "start" : 1528274978624,
+        "stop" : 1528274978624,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Трудовые ресурсы (создание) *"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я выбираю значение реквизита \"Физическое лицо\" из формы списка",
+      "time" : {
+        "start" : 1528274978624,
+        "stop" : 1528274978624,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Физическое лицо"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Тогда открылось окно 'Физические лица'",
+      "time" : {
+        "start" : 1528274978624,
+        "stop" : 1528274978624,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Физические лица"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И в таблице \"Таблица\" я перехожу к строке содержащей подстроки",
+      "time" : {
+        "start" : 1528274978624,
+        "stop" : 1528274978624,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3f2f4c1d9eb7ca9c",
+        "name" : "table",
+        "source" : "3f2f4c1d9eb7ca9c.csv",
+        "type" : "text/csv",
+        "size" : 58
+      } ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Таблица"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И в таблице \"Список\" я выбираю текущую строку",
+      "time" : {
+        "start" : 1528274978624,
+        "stop" : 1528274978624,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Список"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Тогда открылось окно 'Трудовые ресурсы (создание) *'",
+      "time" : {
+        "start" : 1528274978624,
+        "stop" : 1528274978624,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Трудовые ресурсы (создание) *"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И у элемента с именем \"Физическое лицо\" я жду значения \"Иванов Сергей Петрович\"",
+      "time" : {
+        "start" : 1528274978624,
+        "stop" : 1528274978624,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Физическое лицо"
+      }, {
+        "name" : "Парам2",
+        "value" : "Иванов Сергей Петрович"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я нажимаю на кнопку 'Записать и закрыть'",
+      "time" : {
+        "start" : 1528274978624,
+        "stop" : 1528274978624,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Записать и закрыть"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c20f6eed8f8f6141",
+      "name" : "screenshot",
+      "source" : "c20f6eed8f8f6141.png",
+      "type" : "image/png",
+      "size" : 160610
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 26,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "tree"
+  }, {
+    "name" : "package",
+    "value" : "ПланированиеТрудовыхРесурсов"
+  }, {
+    "name" : "host",
+    "value" : "Microsoft Windows 10 version 10.0  (Build 16299)"
+  }, {
+    "name" : "feature",
+    "value" : "СозданиеНСИ"
+  }, {
+    "name" : "story",
+    "value" : " Регистрация НСИ в справочниках"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7f7a97b2e7aad9b1",
+      "status" : "unknown",
+      "statusDetails" : "Пустой адрес снипета у шага: Если появилось окно 'Найден человек с похожим именем.' в течение 5 секунд Тогда я нажимаю на кнопку с именем \"ДаЭтоТотКтоМнеНужен\"",
+      "time" : {
+        "start" : 1528274075355,
+        "stop" : 1528274103739,
+        "duration" : 28384
+      }
+    }, {
+      "uid" : "2a2c6223a7fe5051",
+      "status" : "unknown",
+      "statusDetails" : "Пустой адрес снипета у шага: И я перехожу к следующему элементу",
+      "time" : {
+        "start" : 1528273718038,
+        "stop" : 1528273746877,
+        "duration" : 28839
+      }
+    }, {
+      "uid" : "b47f6c8919b6e5fb",
+      "status" : "unknown",
+      "statusDetails" : "Пустой адрес снипета у шага: И у поля календаря \"Дата рождения\" я выбираю датув поле '01.01.1977'",
+      "time" : {
+        "start" : 1528273207783,
+        "stop" : 1528273249606,
+        "duration" : 41823
+      }
+    }, {
+      "uid" : "2b72aaad3831eca8",
+      "status" : "failed",
+      "statusDetails" : "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(2448)}: Ошибка при вызове метода контекста (ВвестиТекст): Метод не может быть вызван для данного объекта (Дата рождения): Метод не может быть вызван для данного объекта (Дата рождения)\n\nТехнические данные:\n        ИмяФайла: C:/HRS/lib/add/features/libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВПолеЯВвожуТекст\n        ВерсияVB: ver 5.0.0.124\n        ВерсияПлатформы: 8.3.10.2667\n        РежимСовместимостиTestManager: НеИспользовать",
+      "time" : {
+        "start" : 1528272942242,
+        "stop" : 1528272976035,
+        "duration" : 33793
+      }
+    }, {
+      "uid" : "38115d45a8523dec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1528272044941,
+        "stop" : 1528272046919,
+        "duration" : 1978
+      }
+    }, {
+      "uid" : "bb35823ba6cbbf29",
+      "status" : "failed",
+      "statusDetails" : "{ВнешняяОбработка.РаботаСTestClient.Форма.Форма.Форма(635)}: Не смог подключить TestClient.\nСеанс должен быть запущен с ключом TESTMANAGER.{ВнешняяОбработка.bddRunner.Форма.УправляемаяФорма.Форма(15866)}: Ошибка компиляции при вычислении выражения или выполнении фрагмента кода: {(1,7)}: Тип не определен (ТестируемоеПриложение)\n\nТехнические данные:\n        ИмяФайла: C:/HRS/lib/add/features/libraries/TestClients/step_definitions/РаботаСTestClient.epf\n        ИмяПроцедуры: ЯОткрылНовыйСеансTestClientИлиПодключилУжеСуществующий\n        ВерсияVB: ver 5.0.0.124\n        ВерсияПлатформы: 8.3.10.2667\n        РежимСовместимостиTestManager: НеИспользовать",
+      "time" : {
+        "start" : 1528271288985,
+        "stop" : 1528271289257,
+        "duration" : 272
+      }
+    }, {
+      "uid" : "1d1a258400357196",
+      "status" : "passed",
+      "time" : {
+        "start" : 1528270089750,
+        "stop" : 1528270091878,
+        "duration" : 2128
+      }
+    }, {
+      "uid" : "f3d37526fd1cc890",
+      "status" : "passed",
+      "time" : {
+        "start" : 1528268330875,
+        "stop" : 1528268333832,
+        "duration" : 2957
+      }
+    }, {
+      "uid" : "4f663174ac7aca85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1528267872395,
+        "stop" : 1528267874204,
+        "duration" : 1809
+      }
+    }, {
+      "uid" : "2b3018b9ee3d431e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1528215909027,
+        "stop" : 1528215911966,
+        "duration" : 2939
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "tree" ]
+  },
+  "source" : "962ce67225ca72cf.json",
+  "parameterValues" : [ ]
+}

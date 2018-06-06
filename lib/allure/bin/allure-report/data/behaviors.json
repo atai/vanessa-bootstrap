@@ -1,0 +1,105 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "СозданиеНСИ",
+    "children" : [ {
+      "name" : " Регистрация Трудового ресурса в справочнике трудовые ресурсы",
+      "children" : [ {
+        "name" : "регистрация трудового ресурса в справочнике трудовые ресурсы",
+        "uid" : "9100277150964be7",
+        "parentUid" : "3796111218763b2e524c3eae77bf4f12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1528213012464,
+          "stop" : 1528213053986,
+          "duration" : 41522
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3796111218763b2e524c3eae77bf4f12"
+    }, {
+      "name" : " Регистрация НСИ в справочниках",
+      "children" : [ {
+        "name" : "Заполнение справочника Трудовые ресурсы",
+        "uid" : "dd8f928b78a3b27d",
+        "parentUid" : "d10403d0b5b6d7355c486e0149774416",
+        "status" : "passed",
+        "time" : {
+          "start" : 1528274910888,
+          "stop" : 1528274937490,
+          "duration" : 26602
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Заполненение справочника Роли трудового ресурса",
+        "uid" : "962ce67225ca72cf",
+        "parentUid" : "d10403d0b5b6d7355c486e0149774416",
+        "status" : "failed",
+        "time" : {
+          "start" : 1528274938315,
+          "stop" : 1528274978624,
+          "duration" : 40309
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Заполнение справочников подсистемы планирования трудовых ресурсов",
+        "uid" : "a4f93f26342aa17a",
+        "parentUid" : "d10403d0b5b6d7355c486e0149774416",
+        "status" : "passed",
+        "time" : {
+          "start" : 1528281179113,
+          "stop" : 1528281258232,
+          "duration" : 79119
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d10403d0b5b6d7355c486e0149774416"
+    } ],
+    "uid" : "7ff14947a9c9228b8706afe8e3517893"
+  }, {
+    "name" : "ОбщееЗаполнениеНСИ",
+    "children" : [ {
+      "name" : " Заполнение общих справочников, не относящикся к разрабатываемым подсистемам",
+      "children" : [ {
+        "name" : "Заполнение справочников",
+        "uid" : "db8b351cb50abc71",
+        "parentUid" : "b1842ed6a9a605b2fee490c69f7b3c91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1528286096686,
+          "stop" : 1528286104331,
+          "duration" : 7645
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b1842ed6a9a605b2fee490c69f7b3c91"
+    } ],
+    "uid" : "bcc1b7b5f6ebc10f9d1668b7cae9f98a"
+  }, {
+    "name" : "ОбщаяНастройкаБД",
+    "children" : [ {
+      "name" : " Настройка чистой БД",
+      "children" : [ {
+        "name" : "Настройки в разделе Администрирование",
+        "uid" : "44f8f5b26f4e5f55",
+        "parentUid" : "957fa7a0bfaf91f1e688291bef395f30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1528289472373,
+          "stop" : 1528289483527,
+          "duration" : 11154
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "957fa7a0bfaf91f1e688291bef395f30"
+    } ],
+    "uid" : "d2b477daa649eb6c4242c3c18afeb1e8"
+  } ]
+}

@@ -1,0 +1,301 @@
+{
+  "uid" : "d0ab53e798781f5",
+  "name" : "Заполнение справочников подсистемы планирования трудовых ресурсов",
+  "historyId" : "Заполнение справочников подсистемы планирования трудовых ресурсов",
+  "time" : {
+    "start" : 1528215863667,
+    "stop" : 1528215908136,
+    "duration" : 44469
+  },
+  "description" : "\n\nКак Сотрудник проектного отдела\nЯ хочу Зарегистрировать справочную информацию (НСИ) в части структуры трудовых ресурсов компании\nЧтобы иметь возможность в дальнейшем управлять трудовыми ресурсами для планирования",
+  "descriptionHtml" : "<p>Как Сотрудник проектного отдела\nЯ хочу Зарегистрировать справочную информацию (НСИ) в части структуры трудовых ресурсов компании\nЧтобы иметь возможность в дальнейшем управлять трудовыми ресурсами для планирования</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+    "time" : {
+      "start" : 1528215863895,
+      "stop" : 1528215865017,
+      "duration" : 1122
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+      "time" : {
+        "start" : 1528215863895,
+        "stop" : 1528215863926,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И    Я закрыл все окна клиентского приложения",
+      "time" : {
+        "start" : 1528215864099,
+        "stop" : 1528215865017,
+        "duration" : 918
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "И В командном интерфейсе я выбираю 'Соната' 'Трудовые ресурсы'",
+      "time" : {
+        "start" : 1528215865318,
+        "stop" : 1528215868002,
+        "duration" : 2684
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Соната"
+      }, {
+        "name" : "Парам2",
+        "value" : "Трудовые ресурсы"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Тогда открылось окно 'Трудовые ресурсы'",
+      "time" : {
+        "start" : 1528215868160,
+        "stop" : 1528215868701,
+        "duration" : 541
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Трудовые ресурсы"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я нажимаю на кнопку с именем 'ФормаСоздать'",
+      "time" : {
+        "start" : 1528215868978,
+        "stop" : 1528215877060,
+        "duration" : 8082
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "ФормаСоздать"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Тогда открылось окно 'Трудовые ресурсы (создание)'",
+      "time" : {
+        "start" : 1528215877306,
+        "stop" : 1528215877949,
+        "duration" : 643
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Трудовые ресурсы (создание)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И в поле 'Наименование' я ввожу текст 'Отдел установки POS систем'",
+      "time" : {
+        "start" : 1528215878121,
+        "stop" : 1528215885757,
+        "duration" : 7636
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Наименование"
+      }, {
+        "name" : "Парам2",
+        "value" : "Отдел установки POS систем"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перехожу к следующему реквизиту",
+      "time" : {
+        "start" : 1528215886045,
+        "stop" : 1528215886565,
+        "duration" : 520
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перехожу к следующему реквизиту",
+      "time" : {
+        "start" : 1528215886853,
+        "stop" : 1528215887339,
+        "duration" : 486
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И в поле 'Полное наименование' я ввожу текст 'Отдел установки POS систем'",
+      "time" : {
+        "start" : 1528215887459,
+        "stop" : 1528215897787,
+        "duration" : 10328
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Полное наименование"
+      }, {
+        "name" : "Парам2",
+        "value" : "Отдел установки POS систем"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перехожу к следующему реквизиту",
+      "time" : {
+        "start" : 1528215897973,
+        "stop" : 1528215898552,
+        "duration" : 579
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И из выпадающего списка \"Тип трудового ресурса\" я выбираю точное значение 'Собственный'",
+      "time" : {
+        "start" : 1528215898839,
+        "stop" : 1528215900012,
+        "duration" : 1173
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Тип трудового ресурса"
+      }, {
+        "name" : "Парам2",
+        "value" : "Собственный"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я нажимаю на кнопку 'Записать и закрыть'",
+      "time" : {
+        "start" : 1528215900260,
+        "stop" : 1528215908134,
+        "duration" : 7874
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Записать и закрыть"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 11,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "tree"
+  }, {
+    "name" : "package",
+    "value" : "ПланированиеТрудовыхРесурсов"
+  }, {
+    "name" : "host",
+    "value" : "Microsoft Windows 10 version 10.0  (Build 16299)"
+  }, {
+    "name" : "feature",
+    "value" : "СозданиеНСИ"
+  }, {
+    "name" : "story",
+    "value" : " Регистрация НСИ в справочниках"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "tree" ]
+  },
+  "source" : "d0ab53e798781f5.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,253 @@
+{
+  "uid" : "4bc1cb9be2b6eac6",
+  "name" : "Настройки в разделе Администрирование",
+  "historyId" : "Настройки в разделе Администрирование",
+  "time" : {
+    "start" : 1528289361021,
+    "stop" : 1528289371821,
+    "duration" : 10800
+  },
+  "description" : "\n\nКак Администратор ИЛИ Разработчик ИЛИ Консультант\nЯ хочу настроить чистую конфигурацию ERP для компании HRS\nЧтобы при необходмости тестирования или развертывания новой базы иметь возможность сделать эталонные настройки.",
+  "descriptionHtml" : "<p>Как Администратор ИЛИ Разработчик ИЛИ Консультант\nЯ хочу настроить чистую конфигурацию ERP для компании HRS\nЧтобы при необходмости тестирования или развертывания новой базы иметь возможность сделать эталонные настройки.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+    "time" : {
+      "start" : 1528289361286,
+      "stop" : 1528289362114,
+      "duration" : 828
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+      "time" : {
+        "start" : 1528289361286,
+        "stop" : 1528289361302,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И    Я закрыл все окна клиентского приложения",
+      "time" : {
+        "start" : 1528289361492,
+        "stop" : 1528289362114,
+        "duration" : 622
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "И В командном интерфейсе я выбираю 'НСИ и администрирование' 'Общие настройки'",
+      "time" : {
+        "start" : 1528289362305,
+        "stop" : 1528289363001,
+        "duration" : 696
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "НСИ и администрирование"
+      }, {
+        "name" : "Парам2",
+        "value" : "Общие настройки"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Тогда открылось окно 'Общие настройки'",
+      "time" : {
+        "start" : 1528289363121,
+        "stop" : 1528289363385,
+        "duration" : 264
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Общие настройки"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Если поле \"Заголовок программы\" имеет значение \"\" тогда",
+      "time" : {
+        "start" : 1528289363520,
+        "stop" : 1528289363956,
+        "duration" : 436
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Заголовок программы"
+      }, {
+        "name" : "Парам2",
+        "value" : ""
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И Я закрываю окно 'Общие настройки'",
+      "time" : {
+        "start" : 1528289364134,
+        "stop" : 1528289364453,
+        "duration" : 319
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Общие настройки"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И В командном интерфейсе я выбираю 'НСИ и администрирование' 'CRM и маркетинг'",
+      "time" : {
+        "start" : 1528289364740,
+        "stop" : 1528289366006,
+        "duration" : 1266
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "НСИ и администрирование"
+      }, {
+        "name" : "Парам2",
+        "value" : "CRM и маркетинг"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Тогда открылось окно 'CRM и маркетинг'",
+      "time" : {
+        "start" : 1528289366169,
+        "stop" : 1528289366445,
+        "duration" : 276
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "CRM и маркетинг"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я перехожу к закладке \"Настройки CRM\"",
+      "time" : {
+        "start" : 1528289366576,
+        "stop" : 1528289366829,
+        "duration" : 253
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Настройки CRM"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И я устанавливаю флаг \"Проекты\"",
+      "time" : {
+        "start" : 1528289366958,
+        "stop" : 1528289371820,
+        "duration" : 4862
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Проекты"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "tree"
+  }, {
+    "name" : "package",
+    "value" : "000-Общие настройки и заполнение БД"
+  }, {
+    "name" : "host",
+    "value" : "Microsoft Windows 10 version 10.0  (Build 16299)"
+  }, {
+    "name" : "feature",
+    "value" : "ОбщаяНастройкаБД"
+  }, {
+    "name" : "story",
+    "value" : " Настройка чистой БД"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "tree" ]
+  },
+  "source" : "4bc1cb9be2b6eac6.json",
+  "parameterValues" : [ ]
+}

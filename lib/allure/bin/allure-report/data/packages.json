@@ -1,0 +1,85 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ПланированиеТрудовыхРесурсов",
+    "children" : [ {
+      "name" : "регистрация трудового ресурса в справочнике трудовые ресурсы",
+      "uid" : "9100277150964be7",
+      "parentUid" : "0df996d912c1a21ebf2b272c6718951a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1528213012464,
+        "stop" : 1528213053986,
+        "duration" : 41522
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Заполнение справочника Трудовые ресурсы",
+      "uid" : "dd8f928b78a3b27d",
+      "parentUid" : "0df996d912c1a21ebf2b272c6718951a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1528274910888,
+        "stop" : 1528274937490,
+        "duration" : 26602
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Заполненение справочника Роли трудового ресурса",
+      "uid" : "962ce67225ca72cf",
+      "parentUid" : "0df996d912c1a21ebf2b272c6718951a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1528274938315,
+        "stop" : 1528274978624,
+        "duration" : 40309
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Заполнение справочников подсистемы планирования трудовых ресурсов",
+      "uid" : "a4f93f26342aa17a",
+      "parentUid" : "0df996d912c1a21ebf2b272c6718951a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1528281179113,
+        "stop" : 1528281258232,
+        "duration" : 79119
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0df996d912c1a21ebf2b272c6718951a"
+  }, {
+    "name" : "000-Общие настройки и заполнение БД",
+    "children" : [ {
+      "name" : "Заполнение справочников",
+      "uid" : "db8b351cb50abc71",
+      "parentUid" : "00ceec46387a65bdc21f4dfa5b6e07d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1528286096686,
+        "stop" : 1528286104331,
+        "duration" : 7645
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Настройки в разделе Администрирование",
+      "uid" : "44f8f5b26f4e5f55",
+      "parentUid" : "00ceec46387a65bdc21f4dfa5b6e07d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1528289472373,
+        "stop" : 1528289483527,
+        "duration" : 11154
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "00ceec46387a65bdc21f4dfa5b6e07d5"
+  } ]
+}

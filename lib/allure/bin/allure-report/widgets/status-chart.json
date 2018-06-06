@@ -1,0 +1,61 @@
+[ {
+  "uid" : "9100277150964be7",
+  "name" : "регистрация трудового ресурса в справочнике трудовые ресурсы",
+  "time" : {
+    "start" : 1528213012464,
+    "stop" : 1528213053986,
+    "duration" : 41522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44f8f5b26f4e5f55",
+  "name" : "Настройки в разделе Администрирование",
+  "time" : {
+    "start" : 1528289472373,
+    "stop" : 1528289483527,
+    "duration" : 11154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db8b351cb50abc71",
+  "name" : "Заполнение справочников",
+  "time" : {
+    "start" : 1528286096686,
+    "stop" : 1528286104331,
+    "duration" : 7645
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "962ce67225ca72cf",
+  "name" : "Заполненение справочника Роли трудового ресурса",
+  "time" : {
+    "start" : 1528274938315,
+    "stop" : 1528274978624,
+    "duration" : 40309
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4f93f26342aa17a",
+  "name" : "Заполнение справочников подсистемы планирования трудовых ресурсов",
+  "time" : {
+    "start" : 1528281179113,
+    "stop" : 1528281258232,
+    "duration" : 79119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd8f928b78a3b27d",
+  "name" : "Заполнение справочника Трудовые ресурсы",
+  "time" : {
+    "start" : 1528274910888,
+    "stop" : 1528274937490,
+    "duration" : 26602
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

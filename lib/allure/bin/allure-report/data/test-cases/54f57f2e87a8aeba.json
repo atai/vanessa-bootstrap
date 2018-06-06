@@ -1,0 +1,118 @@
+{
+  "uid" : "54f57f2e87a8aeba",
+  "name" : "Заполнение справочников подсистемы планирования трудовых ресурсов",
+  "historyId" : "Заполнение справочников подсистемы планирования трудовых ресурсов",
+  "time" : {
+    "start" : 1528273176186,
+    "stop" : 1528273177940,
+    "duration" : 1754
+  },
+  "description" : "\n\nКак Сотрудник проектного отдела\nЯ хочу Зарегистрировать справочную информацию (НСИ) в части структуры трудовых ресурсов компании\nЧтобы иметь возможность в дальнейшем управлять трудовыми ресурсами для планирования",
+  "descriptionHtml" : "<p>Как Сотрудник проектного отдела\nЯ хочу Зарегистрировать справочную информацию (НСИ) в части структуры трудовых ресурсов компании\nЧтобы иметь возможность в дальнейшем управлять трудовыми ресурсами для планирования</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+    "time" : {
+      "start" : 1528273176484,
+      "stop" : 1528273177283,
+      "duration" : 799
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+      "time" : {
+        "start" : 1528273176484,
+        "stop" : 1528273176512,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "И    Я закрыл все окна клиентского приложения",
+      "time" : {
+        "start" : 1528273176685,
+        "stop" : 1528273177283,
+        "duration" : 598
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Если \"Истина\" тогда",
+      "time" : {
+        "start" : 1528273177496,
+        "stop" : 1528273177939,
+        "duration" : 443
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Парам1",
+        "value" : "Истина"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "tree"
+  }, {
+    "name" : "package",
+    "value" : "ПланированиеТрудовыхРесурсов"
+  }, {
+    "name" : "host",
+    "value" : "Microsoft Windows 10 version 10.0  (Build 16299)"
+  }, {
+    "name" : "feature",
+    "value" : "СозданиеНСИ"
+  }, {
+    "name" : "story",
+    "value" : " Регистрация НСИ в справочниках"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "tree" ]
+  },
+  "source" : "54f57f2e87a8aeba.json",
+  "parameterValues" : [ ]
+}
