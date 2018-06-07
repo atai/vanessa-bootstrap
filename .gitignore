@@ -8,3 +8,6 @@ src/**/*.lgd
 src/**/*.1CD
 SPPR/*
 !SPPR/README.md
+tmp/**
+tmp/*
+!tmp/README.md
